@@ -16,6 +16,11 @@ Create scaffolding project
 spring init --build gradle --name=elastic-search-poc --dependencies=web,data-jpa,mysql,devtools,thymeleaf --package-name=com.amm.artifact elastic-search-poc
 ```
 
+```bash
+./gradlew  build --stacktrace --info
+./gradlew --stop && ./gradlew clean build
+```
+
 
 ![elastic-search](./_media/illustration-home-hero-get-started-elasticsearch-585x530.png)
 
